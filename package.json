@@ -7,6 +7,7 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "main": "public/js/app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/thinkswan/ember-todo-list.git"
