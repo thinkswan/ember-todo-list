@@ -1,4 +1,5 @@
 window.Todos = Ember.Application.create();
 
-// Use fixture data
-Todos.ApplicationAdapter = DS.FixtureAdapter.extend();
+Todos.ApplicationAdapter = DS.LSAdapter.extend({
+  namespace: 'ember-todo-list'
+});
