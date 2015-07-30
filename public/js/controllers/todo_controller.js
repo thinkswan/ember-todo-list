@@ -5,13 +5,15 @@ Todos.TodoController = Ember.ObjectController.extend({
     },
 
     acceptChanges: function() {
-      this.set('isEditing', false);
+      var trimmedTitle = this.get('model.title').trim();
 
-      if (Ember.isEmpty(this.get('model.title').trim())) {
+      if (Ember.isEmpty(trimmedTitle)) {
         this.send('removeTodo');
       } else {
         this.get('model').save();
       }
+
+      this.set('isEditing', false);
     },
 
     removeTodo: function () {
