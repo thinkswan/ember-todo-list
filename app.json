@@ -1,0 +1,15 @@
+{
+  "name": "ember-todo-list",
+  "description": "An Ember app that allows users to manage a todo list",
+  "keywords": [
+    "node",
+    "express",
+    "ember",
+    "todomvc"
+  ],
+  "repository": "https://github.com/thinkswan/ember-todo-list",
+  "success_url": "/",
+  "scripts": {},
+  "env": {},
+  "addons": []
+}
