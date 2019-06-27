@@ -2,7 +2,7 @@
   "name": "ember-todo-list",
   "version": "0.0.0",
   "description": "An Ember app that allows users to manage a todo list",
-  "author": "Graham Swan <thinkswan@gmail.com> (http://grahamswan.com/)",
+  "author": "Graham Swan <thinkswan@gmail.com>",
   "scripts": {
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/thinkswan/ember-todo-list.git"
   },
-   "bugs": {
+  "bugs": {
     "url": "https://github.com/thinkswan/ember-todo-list/issues"
   },
   "keywords": [
