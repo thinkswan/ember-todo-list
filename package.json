@@ -12,9 +12,7 @@
     "type": "git",
     "url": "https://github.com/thinkswan/ember-todo-list.git"
   },
-  "bugs": {
-    "url": "https://github.com/thinkswan/ember-todo-list/issues"
-  },
+  "bugs": {},
   "keywords": [
     "node",
     "express",
