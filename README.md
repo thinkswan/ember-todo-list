@@ -5,10 +5,6 @@ An Ember app that allows users to manage a todo list.
 Based on the tutorial found at
 http://guides.emberjs.com/v1.10.0/getting-started/.
 
-## Demo
-
-View a live demo at https://emberjs-todo-list.herokuapp.com/.
-
 ## How to use
 
 ```
